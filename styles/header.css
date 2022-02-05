@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('/images/pattern-bg.png');
+    width: 100vw;
+    background-size: 100%;
+    aspect-ratio: 140/25;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
+header form {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+header form input {
+    border: none;
+    padding: 25px;
+    width: 500px;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+header form button {
+    padding: 25px;
+    height: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 10px 10px 0;
+    background: hsl(0, 0%, 17%);
+    cursor: pointer;
+}
