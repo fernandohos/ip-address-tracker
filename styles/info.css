@@ -1,0 +1,37 @@
+main .info {
+    margin: -100px auto 0;
+    padding: 30px;
+    background: #fff;
+    height: 180px;
+    width: 70vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 13px #5554;
+}
+
+main .info .separator {
+    height: 70px;
+    width: 1px;
+    background: #969696aa;
+    align-self: center;
+}
+
+main .info .card {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 15px;
+    /* background: red; */
+    flex: 1;
+}
+
+
+main .info .card h2 {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+}
+
+main .info .card p {
+    font-size: 23px;
+}
