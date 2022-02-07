@@ -8,6 +8,8 @@ main .info {
     display: flex;
     justify-content: space-between;
     box-shadow: 0 2px 13px #5554;
+    z-index: 2;
+    position: relative;
 }
 
 main .info .separator {
