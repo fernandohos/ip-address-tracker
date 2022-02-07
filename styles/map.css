@@ -1,0 +1,12 @@
+main .map {
+    width: 100%;
+    height: calc(100vh - 100vw / 5.6 - 20px);
+    margin-top: -88px;
+    z-index: 1;
+}
+
+@media (max-width: 1050px) {
+    main .map {
+        margin-top: -221px;
+    }
+}
