@@ -8,9 +8,9 @@
 
 header {
     background-image: url('/images/pattern-bg.png');
-    width: 100vw;
-    background-size: 100%;
-    aspect-ratio: 140/25;
+    width: 100%;
+    background-size: cover;
+    min-height: 250px;
     background-repeat: no-repeat;
     text-align: center;
     padding: 30px;

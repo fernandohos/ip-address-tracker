@@ -23,10 +23,8 @@ main .info .card {
     text-transform: uppercase;
     font-weight: 500;
     padding: 0 15px;
-    /* background: red; */
     flex: 1;
 }
-
 
 main .info .card h2 {
     margin-bottom: 15px;
@@ -36,4 +34,30 @@ main .info .card h2 {
 
 main .info .card p {
     font-size: 23px;
+}
+
+@media (max-width: 1050px) {
+    main .info .card h2 {
+        margin-bottom: 1px;
+    }
+    main .info .card p {
+        margin-bottom: 10px;
+        width: inherit;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    main .info .separator {
+        width: 120px;
+        height: 1px;
+        margin: 5px;
+    }
+
+    main .info {
+        height: 321px;
+        width: 80vw;
+        flex-direction: column;
+        height: auto;
+    }
 }
